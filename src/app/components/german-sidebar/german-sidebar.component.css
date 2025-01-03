@@ -1,1 +1,18 @@
+/* Custom Scrollbar for the sidebar */
+#separator-sidebar::-webkit-scrollbar {
+  width: 12px;
+}
+
+#separator-sidebar::-webkit-scrollbar-track {
+  background-color: #333;
+}
+
+#separator-sidebar::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+#separator-sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
 
